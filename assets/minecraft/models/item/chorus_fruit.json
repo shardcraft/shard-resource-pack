@@ -1,0 +1,14 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/chorus_fruit"
+    },
+	"overrides": [
+			{ "predicate": { "custom_model_data": 1}, "model": "item/chorus_dragonfruit"},
+			{ "predicate": { "custom_model_data": 2}, "model": "item/chorus_mango"},
+			{ "predicate": { "custom_model_data": 3}, "model": "item/chorus_pear"},
+			{ "predicate": { "custom_model_data": 4}, "model": "item/chorus_plum"},
+			{ "predicate": { "custom_model_data": 5}, "model": "item/chorus_apple"},
+			{ "predicate": { "custom_model_data": 6}, "model": "item/chorus_sweet_berries"}
+	]
+}

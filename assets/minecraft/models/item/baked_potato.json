@@ -1,0 +1,19 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/baked_potato"
+    },
+	"overrides": [
+			{ "predicate": { "custom_model_data": 1}, "model": "item/dragonfruit"},
+			{ "predicate": { "custom_model_data": 2}, "model": "item/mango"},
+			{ "predicate": { "custom_model_data": 3}, "model": "item/pear"},
+			{ "predicate": { "custom_model_data": 4}, "model": "item/plum"},
+			{ "predicate": { "custom_model_data": 5}, "model": "item/fig"},
+			{ "predicate": { "custom_model_data": 6}, "model": "item/peach"},
+			{ "predicate": { "custom_model_data": 7}, "model": "item/orange"},
+			{ "predicate": { "custom_model_data": 8}, "model": "item/pomegranate"},
+			{ "predicate": { "custom_model_data": 9}, "model": "item/cherries"},
+			{ "predicate": { "custom_model_data": 10}, "model": "item/white_grapes"},
+			{ "predicate": { "custom_model_data": 11}, "model": "item/grapes"}
+	]
+}
