@@ -1,7 +1,6 @@
 {
-   "pack":{
-      "pack_format":4,
-      "description":"Custom Shard Resource Pack"
-     }        
-     
+  "pack":{
+    "pack_format":4,
+    "description":"Custom Shard Resource Pack"
   }
+}
