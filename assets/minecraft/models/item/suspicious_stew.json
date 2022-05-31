@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/suspicious_stew"
+  },
+    "overrides": [
+        { "predicate": {"custom_model_data": 6120005}, "model": "shardcraft/anniversary/meaty_stew" },
+        { "predicate": {"custom_model_data": 6120006}, "model": "shardcraft/anniversary/spicy_chili" }
+    ]
+}

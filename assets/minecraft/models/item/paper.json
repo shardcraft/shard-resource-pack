@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/paper"
+  },
+	"overrides": [
+			{ "predicate": { "custom_model_data": 6120028}, "model": "shardcraft/magic/scroll_of_channeling"},
+			{ "predicate": { "custom_model_data": 6120029}, "model": "shardcraft/magic/scroll_of_clarity"},
+			{ "predicate": { "custom_model_data": 6120030}, "model": "shardcraft/magic/scroll_of_rainfall"},
+			{ "predicate": { "custom_model_data": 6120031}, "model": "shardcraft/magic/scroll_of_sanctuary"},
+			{ "predicate": { "custom_model_data": 6120032}, "model": "shardcraft/magic/scroll_of_storms"}
+	]
+}

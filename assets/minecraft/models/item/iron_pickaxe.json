@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/iron_pickaxe"
+  },
+	"overrides": [
+			{ "predicate": { "custom_model_data": 6120017}, "model": "shardcraft/soul_tools/pickaxe/lv1"},
+			{ "predicate": { "custom_model_data": 6120018}, "model": "shardcraft/soul_tools/pickaxe/lv2"},
+			{ "predicate": { "custom_model_data": 6120019}, "model": "shardcraft/soul_tools/pickaxe/lv3"},
+			{ "predicate": { "custom_model_data": 6120020}, "model": "shardcraft/soul_tools/pickaxe/lv4"},
+			{ "predicate": { "custom_model_data": 6120021}, "model": "shardcraft/soul_tools/pickaxe/lv5"},
+			{ "predicate": { "custom_model_data": 6120039}, "model": "shardcraft/tools/gp_pickaxe"}
+	]
+}

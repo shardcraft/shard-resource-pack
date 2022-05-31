@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/iron_axe"
+  },
+	"overrides": [
+			{ "predicate": { "custom_model_data": 6120007}, "model": "shardcraft/soul_tools/axe/lv1"},
+			{ "predicate": { "custom_model_data": 6120008}, "model": "shardcraft/soul_tools/axe/lv2"},
+			{ "predicate": { "custom_model_data": 6120009}, "model": "shardcraft/soul_tools/axe/lv3"},
+			{ "predicate": { "custom_model_data": 6120010}, "model": "shardcraft/soul_tools/axe/lv4"},
+			{ "predicate": { "custom_model_data": 6120011}, "model": "shardcraft/soul_tools/axe/lv5"},
+			{ "predicate": { "custom_model_data": 6120037}, "model": "shardcraft/tools/gp_axe"}
+	]
+}

@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/iron_shovel"
+  },
+	"overrides": [
+			{ "predicate": { "custom_model_data": 6120022}, "model": "shardcraft/soul_tools/shovel/lv1"},
+			{ "predicate": { "custom_model_data": 6120023}, "model": "shardcraft/soul_tools/shovel/lv2"},
+			{ "predicate": { "custom_model_data": 6120024}, "model": "shardcraft/soul_tools/shovel/lv3"},
+			{ "predicate": { "custom_model_data": 6120025}, "model": "shardcraft/soul_tools/shovel/lv4"},
+			{ "predicate": { "custom_model_data": 6120026}, "model": "shardcraft/soul_tools/shovel/lv5"},
+			{ "predicate": { "custom_model_data": 6120040}, "model": "shardcraft/tools/gp_shovel"}
+	]
+}

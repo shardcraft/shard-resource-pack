@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/iron_hoe"
+  },
+	"overrides": [
+			{ "predicate": { "custom_model_data": 6120012}, "model": "shardcraft/soul_tools/hoe/lv1"},
+			{ "predicate": { "custom_model_data": 6120013}, "model": "shardcraft/soul_tools/hoe/lv2"},
+			{ "predicate": { "custom_model_data": 6120014}, "model": "shardcraft/soul_tools/hoe/lv3"},
+			{ "predicate": { "custom_model_data": 6120015}, "model": "shardcraft/soul_tools/hoe/lv4"},
+			{ "predicate": { "custom_model_data": 6120016}, "model": "shardcraft/soul_tools/hoe/lv5"},
+			{ "predicate": { "custom_model_data": 6120038}, "model": "shardcraft/tools/gp_hoe"}
+	]
+}
