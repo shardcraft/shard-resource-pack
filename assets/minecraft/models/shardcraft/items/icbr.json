@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "shardcraft/items/icbr"
+        "layer0": "item/shard_items_icbr"
     }
 }

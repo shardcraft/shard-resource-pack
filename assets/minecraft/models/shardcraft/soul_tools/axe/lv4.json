@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/handheld",
     "textures": {
-        "layer0": "shardcraft/soul_tools/axe/lv4"
+        "layer0": "item/shard_tool_soul_axe_lv4"
     }
 }

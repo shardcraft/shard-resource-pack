@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/handheld",
     "textures": {
-        "layer0": "shardcraft/soul_tools/hoe/lv2"
+        "layer0": "item/shard_tool_soul_hoe_lv2"
     }
 }

@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "shardcraft/anniversary/meaty_stew"
+        "layer0": "item/shard_anni_meaty_stew"
     }
 }

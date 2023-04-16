@@ -3,7 +3,7 @@
 	"parent": "amethyst_shard",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "shardcraft/anniversary/ten_shard"
+		"0": "item/shard_anni_ten_shard"
 	},
 	"elements": [
 		{
