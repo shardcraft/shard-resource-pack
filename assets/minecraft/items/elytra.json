@@ -1,0 +1,15 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:broken",
+      "on_false": { "type": "minecraft:model", "model": "minecraft:item/elytra" },
+      "on_true": { "type": "minecraft:model", "model": "minecraft:item/broken_elytra" }
+    },
+    "entries": [
+      { "threshold": 6120043, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/items/armored_elytra" } }
+    ]
+  }
+}

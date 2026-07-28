@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/suspicious_stew"
+    },
+    "entries": [
+      { "threshold": 6120005, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/anniversary/meaty_stew" } },
+      { "threshold": 6120006, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/anniversary/spicy_chili" } }
+    ]
+  }
+}

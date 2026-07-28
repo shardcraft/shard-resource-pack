@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/handheld",
     "textures": {
-        "layer0": "item/shard_tool_forever_axe"
+        "layer0": "item/shard_tool_gp_axe"
     }
 }

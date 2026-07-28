@@ -1,0 +1,18 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/iron_hoe"
+    },
+    "entries": [
+      { "threshold": 6120012, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/soul_tools/hoe/lv1" } },
+      { "threshold": 6120013, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/soul_tools/hoe/lv2" } },
+      { "threshold": 6120014, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/soul_tools/hoe/lv3" } },
+      { "threshold": 6120015, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/soul_tools/hoe/lv4" } },
+      { "threshold": 6120016, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/soul_tools/hoe/lv5" } },
+      { "threshold": 6120038, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/tools/gp_hoe" } }
+    ]
+  }
+}

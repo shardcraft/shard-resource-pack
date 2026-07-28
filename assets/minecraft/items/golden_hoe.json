@@ -1,0 +1,13 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/golden_hoe"
+    },
+    "entries": [
+      { "threshold": 6120002, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/tools/forever_hoe" } }
+    ]
+  }
+}

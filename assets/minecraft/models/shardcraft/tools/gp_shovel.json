@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/handheld",
     "textures": {
-        "layer0": "item/shard_tool_forever_shovel"
+        "layer0": "item/shard_tool_gp_shovel"
     }
 }

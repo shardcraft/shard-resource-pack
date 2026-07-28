@@ -1,0 +1,18 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/iron_pickaxe"
+    },
+    "entries": [
+      { "threshold": 6120017, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/soul_tools/pickaxe/lv1" } },
+      { "threshold": 6120018, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/soul_tools/pickaxe/lv2" } },
+      { "threshold": 6120019, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/soul_tools/pickaxe/lv3" } },
+      { "threshold": 6120020, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/soul_tools/pickaxe/lv4" } },
+      { "threshold": 6120021, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/soul_tools/pickaxe/lv5" } },
+      { "threshold": 6120039, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/tools/gp_pickaxe" } }
+    ]
+  }
+}
