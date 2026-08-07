@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "amethyst_shard",
+	"parent": "minecraft:item/amethyst_shard",
 	"texture_size": [32, 32],
 	"textures": {
 		"0": "item/shard_anni_ten_shard"
