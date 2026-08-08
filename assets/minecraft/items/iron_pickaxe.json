@@ -7,12 +7,12 @@
       "model": "minecraft:item/iron_pickaxe"
     },
     "entries": [
-      { "threshold": 6120017, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/soul_tools/pickaxe/lv1" } },
-      { "threshold": 6120018, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/soul_tools/pickaxe/lv2" } },
-      { "threshold": 6120019, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/soul_tools/pickaxe/lv3" } },
-      { "threshold": 6120020, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/soul_tools/pickaxe/lv4" } },
-      { "threshold": 6120021, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/soul_tools/pickaxe/lv5" } },
-      { "threshold": 6120039, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/tools/gp_pickaxe" } }
+      { "threshold": 6120017, "model": { "type": "minecraft:model", "model": "minecraft:item/tools/soul_tools/pick_1" } },
+      { "threshold": 6120018, "model": { "type": "minecraft:model", "model": "minecraft:item/tools/soul_tools/pick_2" } },
+      { "threshold": 6120019, "model": { "type": "minecraft:model", "model": "minecraft:item/tools/soul_tools/pick_3" } },
+      { "threshold": 6120020, "model": { "type": "minecraft:model", "model": "minecraft:item/tools/soul_tools/pick_4" } },
+      { "threshold": 6120021, "model": { "type": "minecraft:model", "model": "minecraft:item/tools/soul_tools/pick_5" } },
+      { "threshold": 6120039, "model": { "type": "minecraft:model", "model": "minecraft:item/tools/gas_powered_tools/pickaxe" } }
     ]
   }
 }

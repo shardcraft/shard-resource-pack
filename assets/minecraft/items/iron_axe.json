@@ -7,12 +7,12 @@
       "model": "minecraft:item/iron_axe"
     },
     "entries": [
-      { "threshold": 6120007, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/soul_tools/axe/lv1" } },
-      { "threshold": 6120008, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/soul_tools/axe/lv2" } },
-      { "threshold": 6120009, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/soul_tools/axe/lv3" } },
-      { "threshold": 6120010, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/soul_tools/axe/lv4" } },
-      { "threshold": 6120011, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/soul_tools/axe/lv5" } },
-      { "threshold": 6120037, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/tools/gp_axe" } }
+      { "threshold": 6120007, "model": { "type": "minecraft:model", "model": "minecraft:item/tools/soul_tools/axe_1" } },
+      { "threshold": 6120008, "model": { "type": "minecraft:model", "model": "minecraft:item/tools/soul_tools/axe_2" } },
+      { "threshold": 6120009, "model": { "type": "minecraft:model", "model": "minecraft:item/tools/soul_tools/axe_3" } },
+      { "threshold": 6120010, "model": { "type": "minecraft:model", "model": "minecraft:item/tools/soul_tools/axe_4" } },
+      { "threshold": 6120011, "model": { "type": "minecraft:model", "model": "minecraft:item/tools/soul_tools/axe_5" } },
+      { "threshold": 6120037, "model": { "type": "minecraft:model", "model": "minecraft:item/tools/gas_powered_tools/axe" } }
     ]
   }
 }

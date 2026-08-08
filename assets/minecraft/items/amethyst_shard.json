@@ -8,7 +8,7 @@
       "model": "minecraft:item/amethyst_shard"
     },
     "entries": [
-      { "threshold": 6120042, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/anniversary/ten_shard" } }
+      { "threshold": 6120042, "model": { "type": "minecraft:model", "model": "minecraft:item/anniversary/trophy_10" } }
     ]
   }
 }

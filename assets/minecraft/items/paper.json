@@ -7,11 +7,12 @@
       "model": "minecraft:item/paper"
     },
     "entries": [
-      { "threshold": 6120028, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/magic/scroll_of_channeling" } },
-      { "threshold": 6120029, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/magic/scroll_of_clarity" } },
-      { "threshold": 6120030, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/magic/scroll_of_rainfall" } },
-      { "threshold": 6120031, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/magic/scroll_of_sanctuary" } },
-      { "threshold": 6120032, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/magic/scroll_of_storms" } }
+      { "threshold": 6120028, "model": { "type": "minecraft:model", "model": "minecraft:item/spellcasting/scroll_of_channeling" } },
+      { "threshold": 6120033, "model": { "type": "minecraft:model", "model": "minecraft:item/spellcasting/scroll_of_errant_paths" } },
+      { "threshold": 6120034, "model": { "type": "minecraft:model", "model": "minecraft:item/spellcasting/scroll_of_stormbinding" } },
+      { "threshold": 6120035, "model": { "type": "minecraft:model", "model": "minecraft:item/spellcasting/scroll_of_recall" } },
+      { "threshold": 6120036, "model": { "type": "minecraft:model", "model": "minecraft:item/spellcasting/scroll_of_raincalling" } },
+      { "threshold": 6120037, "model": { "type": "minecraft:model", "model": "minecraft:item/spellcasting/scroll_of_cloudbreaking" } }
     ]
   }
 }

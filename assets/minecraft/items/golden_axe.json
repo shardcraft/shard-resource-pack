@@ -7,7 +7,7 @@
       "model": "minecraft:item/golden_axe"
     },
     "entries": [
-      { "threshold": 6120001, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/tools/forever_axe" } }
+      { "threshold": 6120001, "model": { "type": "minecraft:model", "model": "minecraft:item/tools/forever_tools/axe" } }
     ]
   }
 }

@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "item/tools/soul_tools/pick_2"
+    }
+}

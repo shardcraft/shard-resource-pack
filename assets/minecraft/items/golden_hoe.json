@@ -7,7 +7,7 @@
       "model": "minecraft:item/golden_hoe"
     },
     "entries": [
-      { "threshold": 6120002, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/tools/forever_hoe" } }
+      { "threshold": 6120002, "model": { "type": "minecraft:model", "model": "minecraft:item/tools/forever_tools/hoe" } }
     ]
   }
 }

@@ -7,12 +7,12 @@
       "model": "minecraft:item/iron_hoe"
     },
     "entries": [
-      { "threshold": 6120012, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/soul_tools/hoe/lv1" } },
-      { "threshold": 6120013, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/soul_tools/hoe/lv2" } },
-      { "threshold": 6120014, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/soul_tools/hoe/lv3" } },
-      { "threshold": 6120015, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/soul_tools/hoe/lv4" } },
-      { "threshold": 6120016, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/soul_tools/hoe/lv5" } },
-      { "threshold": 6120038, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/tools/gp_hoe" } }
+      { "threshold": 6120012, "model": { "type": "minecraft:model", "model": "minecraft:item/tools/soul_tools/hoe_1" } },
+      { "threshold": 6120013, "model": { "type": "minecraft:model", "model": "minecraft:item/tools/soul_tools/hoe_2" } },
+      { "threshold": 6120014, "model": { "type": "minecraft:model", "model": "minecraft:item/tools/soul_tools/hoe_3" } },
+      { "threshold": 6120015, "model": { "type": "minecraft:model", "model": "minecraft:item/tools/soul_tools/hoe_4" } },
+      { "threshold": 6120016, "model": { "type": "minecraft:model", "model": "minecraft:item/tools/soul_tools/hoe_5" } },
+      { "threshold": 6120038, "model": { "type": "minecraft:model", "model": "minecraft:item/tools/gas_powered_tools/hoe" } }
     ]
   }
 }

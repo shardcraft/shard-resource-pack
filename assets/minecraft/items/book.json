@@ -7,7 +7,7 @@
       "model": "minecraft:item/book"
     },
     "entries": [
-      { "threshold": 6120033, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/magic/tome_of_essentials" } }
+      { "threshold": 6120033, "model": { "type": "minecraft:model", "model": "minecraft:item/spellcasting/tome_of_essentials" } }
     ]
   }
 }

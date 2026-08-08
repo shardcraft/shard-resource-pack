@@ -7,7 +7,7 @@
       "model": "minecraft:item/golden_pickaxe"
     },
     "entries": [
-      { "threshold": 6120003, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/tools/forever_pickaxe" } }
+      { "threshold": 6120003, "model": { "type": "minecraft:model", "model": "minecraft:item/tools/forever_tools/pickaxe" } }
     ]
   }
 }

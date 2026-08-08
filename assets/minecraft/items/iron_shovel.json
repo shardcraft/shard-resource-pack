@@ -7,12 +7,12 @@
       "model": "minecraft:item/iron_shovel"
     },
     "entries": [
-      { "threshold": 6120022, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/soul_tools/shovel/lv1" } },
-      { "threshold": 6120023, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/soul_tools/shovel/lv2" } },
-      { "threshold": 6120024, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/soul_tools/shovel/lv3" } },
-      { "threshold": 6120025, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/soul_tools/shovel/lv4" } },
-      { "threshold": 6120026, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/soul_tools/shovel/lv5" } },
-      { "threshold": 6120040, "model": { "type": "minecraft:model", "model": "minecraft:shardcraft/tools/gp_shovel" } }
+      { "threshold": 6120022, "model": { "type": "minecraft:model", "model": "minecraft:item/tools/soul_tools/shovel_1" } },
+      { "threshold": 6120023, "model": { "type": "minecraft:model", "model": "minecraft:item/tools/soul_tools/shovel_2" } },
+      { "threshold": 6120024, "model": { "type": "minecraft:model", "model": "minecraft:item/tools/soul_tools/shovel_3" } },
+      { "threshold": 6120025, "model": { "type": "minecraft:model", "model": "minecraft:item/tools/soul_tools/shovel_4" } },
+      { "threshold": 6120026, "model": { "type": "minecraft:model", "model": "minecraft:item/tools/soul_tools/shovel_5" } },
+      { "threshold": 6120040, "model": { "type": "minecraft:model", "model": "minecraft:item/tools/gas_powered_tools/shovel" } }
     ]
   }
 }
