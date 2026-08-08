@@ -1,0 +1,51 @@
+name: Release Resource Pack
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Release version
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build archive
+        env:
+          VERSION: ${{ inputs.version }}
+        run: |
+          cd src
+          zip -r "../Shard_${VERSION}.zip" assets pack.mcmeta pack.png -x '*/.DS_Store'
+
+      - name: Generate checksum
+        env:
+          VERSION: ${{ inputs.version }}
+        run: |
+          sha1sum "Shard_${VERSION}.zip" | awk '{print $1}' > "Shard_${VERSION}.zip.sha1"
+
+      - name: Create release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ inputs.version }}
+        run: |
+          gh release create "${VERSION}" "Shard_${VERSION}.zip" "Shard_${VERSION}.zip.sha1" --title "Shard ${VERSION}" --generate-notes
+
+      - name: Publish release details
+        env:
+          VERSION: ${{ inputs.version }}
+        run: |
+          ARCHIVE_URL="https://github.com/${GITHUB_REPOSITORY}/releases/download/${VERSION}/Shard_${VERSION}.zip"
+          SHA1=$(cat "Shard_${VERSION}.zip.sha1")
+          {
+            echo "## Shard ${VERSION}"
+            echo
+            echo "Archive: ${ARCHIVE_URL}"
+            echo "SHA-1: ${SHA1}"
+          } >> "$GITHUB_STEP_SUMMARY"
