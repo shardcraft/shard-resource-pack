@@ -1,0 +1,23 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:entity_data",
+    "cases": [
+      {
+        "when": {
+          "id": "minecraft:item_frame",
+          "Invisible": true
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/vanilla/invisible_item_frame"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/item_frame"
+    }
+  }
+}
